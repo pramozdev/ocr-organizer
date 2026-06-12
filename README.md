@@ -1,8 +1,54 @@
-# OCR Organizer
+<h1 align="center">OCR Organizer</h1>
 
-![Python](https://img.shields.io/badge/python-3.12+-blue.svg)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.136.3-009688.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+<p align="center">
+  <b>Local Python API for intelligent image text analysis</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/pramozdev/ocr-organizer/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/pramozdev/ocr-organizer/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=CI&color=2088FF" alt="CI">
+  </a>
+  <a href="https://github.com/pramozdev/ocr-organizer/releases">
+    <img src="https://img.shields.io/github/v/release/pramozdev/ocr-organizer?style=for-the-badge&logo=github&logoColor=white&label=Release&color=00C7B7" alt="Release">
+  </a>
+  <a href="https://github.com/pramozdev/ocr-organizer/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/pramozdev/ocr-organizer?style=for-the-badge&logo=opensourceinitiative&logoColor=white&label=License&color=green" alt="License">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.12+-FFD43B?style=flat-square&logo=python&logoColor=blue" alt="Python">
+  </a>
+  <a href="https://fastapi.tiangolo.com/">
+    <img src="https://img.shields.io/badge/FastAPI-0.136.3-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  </a>
+  <a href="https://github.com/tesseract-ocr/tesseract">
+    <img src="https://img.shields.io/badge/Tesseract-OCR-black?style=flat-square&logo=google&logoColor=white" alt="Tesseract">
+  </a>
+  <a href="https://docs.pydantic.dev/">
+    <img src="https://img.shields.io/badge/Pydantic-V2-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic">
+  </a>
+  <a href="https://github.com/psf/black">
+    <img src="https://img.shields.io/badge/Style-Black-000000?style=flat-square&logo=python&logoColor=white" alt="Black">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Tests-27%20passing-success?style=flat-square&logo=pytest&logoColor=white" alt="Tests">
+  <img src="https://img.shields.io/badge/Async-Thread%20Pool-FF6F00?style=flat-square" alt="Async">
+  <img src="https://img.shields.io/badge/OCR-Tesseract%20OCR-blueviolet?style=flat-square" alt="OCR">
+</p>
+
+<p align="center">
+  <a href="#features">Features</a> &bull;
+  <a href="#quick-start">Quick Start</a> &bull;
+  <a href="#api-endpoints">API</a> &bull;
+  <a href="#architecture">Architecture</a> &bull;
+  <a href="#use-cases">Use Cases</a>
+</p>
+
+---
 
 **Local Python API for intelligent image text analysis.** Extracts text from images using Tesseract OCR, structures it semantically, and generates AI-ready prompts for local LLM interpretation.
 
